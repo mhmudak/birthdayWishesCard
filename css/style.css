@@ -173,7 +173,10 @@ body {
   .birthdayCard:hover .happy {
     visibility:hidden; 
   }
-  
+  /* .birthdayCard:active .cardFront {
+    transform: rotateY(-160deg); 
+  }
+   */
   @keyframes blink {
     0% {
       color: white;
