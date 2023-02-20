@@ -138,7 +138,7 @@ body {
   }
   
   p {
-    font-family: cursive;
+    font-family: 'Lobster', cursive;
     margin: 20px;
     font-size: 20px;
   }
@@ -166,17 +166,25 @@ body {
     box-shadow: inset 100px 20px 100px rgba(0,0,0,.2), 0 10px 100px rgba(0,0,0,0.5);
   }
   
-  /* .birthdayCard:hover .cardFront {
+  .birthdayCard:hover .cardFront {
     transform: rotateY(-160deg); 
-  } */
+  }
   
   .birthdayCard:hover .happy {
     visibility:hidden; 
   }
-  /* .birthdayCard:active .cardFront {
+  .birthdayCard:active {
+    transform: perspective(2500px) rotate(5deg);
+    box-shadow: inset 100px 20px 100px rgba(0,0,0,.2), 0 10px 100px rgba(0,0,0,0.5);
+  }
+  .birthdayCard:active .cardFront {
     transform: rotateY(-160deg); 
   }
-   */
+  
+  .birthdayCard:active .happy {
+    visibility:hidden; 
+  }
+  
   @keyframes blink {
     0% {
       color: white;
