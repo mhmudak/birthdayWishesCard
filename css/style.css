@@ -166,9 +166,9 @@ body {
     box-shadow: inset 100px 20px 100px rgba(0,0,0,.2), 0 10px 100px rgba(0,0,0,0.5);
   }
   
-  .birthdayCard:hover .cardFront {
+  /* .birthdayCard:hover .cardFront {
     transform: rotateY(-160deg); 
-  }
+  } */
   
   .birthdayCard:hover .happy {
     visibility:hidden; 
